@@ -1,0 +1,22 @@
+model:
+  model_name: ZIP
+  pos_b: 1.25
+  pos_l: 80
+  stem_dim: '1024'
+  feat_hwc: '8_8_128'
+  act: GELU
+  expansion: 1
+  reduction: 2
+  lower_width: 96
+  bias: true
+  norm: Identity
+  conv_type: pixelshuffle
+  out_act: Sigmoid
+  out_channel: 1
+optim:
+  optim_type: Adam
+  lr: 0.0005
+  beta1: 0.5
+  beta2: 0.999
+  lr_schedule: warmup_cosine
+  lr_point: 0.2
