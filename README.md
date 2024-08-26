@@ -1,6 +1,7 @@
 # Compression of Battery X-ray Tomography Data with Machine Learning
 Zipei Yan, Qiyu Wang, Xiqian Yu, Jizhou Li, and Michael K.-P. Ng
 
+This work is accepted by Chinese Physics Letters. DOI: [10.1088/0256-307X/41/9/098901](http://dx.doi.org/10.1088/0256-307X/41/9/098901).
 
 ## Setup
 
@@ -62,7 +63,7 @@ options:
   --print_freq PRINT_FREQ
                         print frequency (default: 100)
   --save_freq SAVE_FREQ
-                        save frequency for checkpoint and denoised results (default: None), if None, save last only
+                        save frequency for checkpoint (default: None), if None, save last only
   --alpha ALPHA         coefficient for L2
   --beta BETA           coefficient for SSIM
   --gamma GAMMA         coefficient for Laplacian
@@ -141,7 +142,7 @@ CUDA_VISIBLE_DEVICES=$device python3 -u train.py \
   --cuda
 ```
 
-Energy: 8570
+Energy: 8570 eV
 ```bash
 device="0"
 
