@@ -1,5 +1,5 @@
 # Compression of Battery X-ray Tomography Data with Machine Learning
-Zipei Yan, Qiyu Wang, Xiqian Yu, Jizhou Li, and Michael K.-P. Ng. **Chin. Phys. Lett**. 2024, 41 (9): 098901, DOI: [10.1088/0256-307X/41/9/098901](https://cpl.iphy.ac.cn/10.1088/0256-307X/41/9/098901).
+Zipei Yan, Qiyu Wang, Xiqian Yu, Jizhou Li, and Michael K.-P. Ng. **_Chin. Phys. Lett._** 2024, 41 (9): 098901, DOI: [10.1088/0256-307X/41/9/098901](https://cpl.iphy.ac.cn/10.1088/0256-307X/41/9/098901).
 
 ## Setup
 
